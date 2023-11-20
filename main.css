@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2 {
+    font-family:'Josefin Sans', sans-serif;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#azeroth {
+    background-color: #3a1805ea;
+    color: #fff;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #3a1805;
+    color: #fff;
+}
+
+header h1,
+section h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#azeroth .container img,
+#aliance .container img,
+#horde .container img {
+    height: 500px;
+    align-items: flex-start;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section .container div p {
+    margin-bottom: 20px;
+    align-items: flex-start;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#azeroth img {
+    margin-right: 32px;
+}
+
+#azeroth .container div a {
+    background-color: #1d0702a4;
+    color: #fff;
+    padding: 4px;
+    text-decoration: none;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #fff;
+    margin-block: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#aliance {
+    background-color: #0d1c5f;
+    color: #fff;
+}
+
+#aliance .container div a {
+    background-color: #05021da4;
+    color: #fff;
+    padding: 4px;
+    text-decoration: none;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #fff;
+    margin-block: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#aliance img {
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+#horde {
+    background-color: #9c0f0f;
+    color: #fff;
+}
+
+#horde .container div a {
+    background-color: #1d0202a4;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#azeroth .container div a:hover,
+#aliance .container div a:hover,
+#horde .container div a:hover {
+    text-decoration: underline;
+}
+
+#horde img {
+    margin-left: 145px;
+    margin-right: 0;
+}
+
+footer {
+    padding: 16px 0;
+    text-align: center;
+    background-color: #3a1805;
+    color: #fff;
+}
